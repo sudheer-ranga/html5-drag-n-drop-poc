@@ -2,13 +2,26 @@
   box-sizing: border-box;
 }
 
+#initial-data,
+#updated-data {
+  padding: 10px;
+  background-color: #ddd;
+  width: 30%;
+}
+#initial-data pre,
+#updated-data pre {
+  width: 100%;
+}
+
 body {
+  display: -webkit-box;
+  display: flex;
   padding: 25px;
 }
 
 .container {
   width: 600px;
-  margin: auto;
+  margin: 0 auto;
   background: #eee;
   padding: 25px;
 }
